@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lobeca Barbershop · Barbearia em Apucarana-PR</title>
+  <meta name="description" content="Barbearia Lobeca: 11 anos de corte, barba e visagismo no Centro de Apucarana-PR. Nota 4,9 no Google, mais de 450 assinantes. Agende pelo CashBarber ou WhatsApp.">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:title" content="Lobeca Barbershop · Apucarana-PR">
+  <meta property="og:description" content="Corte, barba e visagismo há 11 anos no Centro de Apucarana. Agende pelo CashBarber ou WhatsApp.">
+  <link rel="icon" href="./marca.svg" type="image/svg+xml">
+  <!-- primeira pintura: nunca a página crua. A abertura liga aqui, antes de qualquer arquivo, com o CSS crítico dela
+       inline (fundo preto, textura de cabelo, nome escondido até a fonte chegar); a folha do site vem em <link> -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      if (!matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('abertura-on');
+      if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+      setTimeout(function () { if (!window.__aberturaViva) { d.classList.remove('abertura-on'); d.classList.add('abertura-fim'); } }, 4000);
+    })();
+  </script>
+  <style>html{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#070707}html:not(.assentou) *,html:not(.assentou) :before,html:not(.assentou) :after{transition:none!important}body{background:#070707;margin:0}.abertura-on body{overflow:hidden}html:not(.js-pronto) .cardapio{margin-top:0!important}.abertura-on .nav,.abertura-on [data-ui],.abertura-on .hero__p{opacity:0}.abertura-on .hero__cabelo{opacity:1}.hero__cabelo{opacity:0;background:#070707 50%/cover no-repeat;position:absolute;inset:0}.abertura-on .hero__cabelo{background-image:url(cabelo.webp)}</style>
+  <link rel="preload" href="./cabelo.webp" as="image" fetchpriority="high">
+  <script type="module" crossorigin src="./index-BkjRy1iP.js"></script>
+  <link rel="stylesheet" crossorigin href="./index-DEHdMqN_.css">
+</head>
+<body>
+  <a class="pular-conteudo" href="#cardapio">Pular para os serviços</a>
+
+  <header class="nav" data-tema="escuro">
+    <a class="nav__logo" href="#topo" aria-label="Lobeca Barbershop, voltar ao início">
+      <svg class="marca" aria-hidden="true"><use href="#marca"/></svg>
+      <span>Lobeca</span>
+    </a>
+    <nav class="nav__links" aria-label="Seções">
+      <a href="#cardapio">Serviços</a>
+      <a href="#espelhos">Barbeiros</a>
+      <a href="#clube">Planos</a>
+      <a href="#tour">Tour 360°</a>
+      <a href="#endereco">Endereço</a>
+    </nav>
+    <button class="botao botao--claro botao--seta nav__cta" type="button" data-agendar>Agendar</button>
+  </header>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <!-- a marca: LO / BE / CA empilhado, vetorizado do logo da casa -->
+      <symbol id="marca" viewBox="312 183 577 835"><path fill="currentColor" d="M 705.5 183.5 C 704.9 183.7, 700.9 184.6, 696.5 185.4 C 650.2 193.9, 616.3 217.2, 598.5 252.7 C 591.1 267.5, 589.5 272.2, 585.8 289.5 C 583 302.8, 582.4 338.8, 584.8 349.5 C 590.1 372.7, 590.5 374.2, 597.6 389.7 C 610.2 417.3, 638 440.8, 671 451.9 C 717.3 467.5, 780 464.1, 820 443.9 C 844.8 431.4, 867.6 408, 876.3 386 C 877.3 383.5, 878.5 381, 878.9 380.5 C 880.5 378.4, 885.3 361.2, 886.7 352.5 C 889.3 336.8, 889.4 307.8, 887 293.9 C 878.9 248.3, 856.2 217.4, 817 198.3 C 808.4 194.1, 798.5 190.4, 792 188.9 C 790 188.5, 784.2 187.1, 779 185.9 C 770.3 183.8, 766.6 183.6, 738 183.3 C 720.6 183.2, 706 183.2, 705.5 183.5 M 312.4 191.2 C 312.1 191.9, 312 200.2, 312.2 209.5 L 312.5 226.5 325 227 C 340.8 227.7, 343.3 228.8, 345.5 236.3 C 347.5 243.5, 347.3 406, 345.2 408.1 C 344.5 408.8, 344 410.1, 344 411 C 344 414.7, 336.7 416.1, 312.7 416.9 C 312.3 416.9, 312 425.2, 312.2 435.2 L 312.5 453.5 435.1 453.7 C 546.3 453.9, 557.8 453.8, 559 452.4 C 561 450, 561.1 345.2, 559.1 344.5 C 556.1 343.3, 521.2 343.9, 520.2 345.2 C 519.7 345.9, 518.9 350.7, 518.6 356 C 517.4 373.9, 513.8 387.6, 507.4 398 C 502.8 405.4, 499.2 408.2, 488.8 412.3 C 483.8 414.3, 461.1 416.2, 447 415.8 L 435.5 415.5 435.5 324.7 L 435.5 234 438 231.4 C 441.4 228, 446.2 227, 458.6 227 C 465.5 227, 469 226.6, 469.7 225.7 C 471.2 223.8, 471.4 193.2, 469.9 191.4 C 468.2 189.4, 313.2 189.2, 312.4 191.2 M 727.5 222.9 C 721.5 223.8, 716.1 225.7, 713.9 227.6 C 713 228.3, 711.8 229, 711.3 229 C 709.6 229, 701.7 238.1, 698.6 243.5 C 690 258.8, 686.2 279, 685.3 315.3 C 684.4 350.2, 688.8 380.8, 697.1 397.3 C 706.3 415.7, 722.8 424.1, 743.6 420.9 C 758.2 418.8, 768.4 410.9, 775.5 396.6 C 778.6 390.4, 779.8 386.5, 782.9 374 C 786.6 359.1, 788 302.5, 785.1 283.5 C 780.1 250.4, 771.6 234, 755.5 226 C 748.4 222.6, 737.5 221.3, 727.5 222.9 M 615 468.8 C 607.9 469.3, 608 469.2, 608 488.1 C 608 507.7, 606.4 505.7, 622.5 506.2 C 636 506.6, 639.9 508.4, 641.7 515.5 C 643.6 522.9, 643 686.4, 641.1 689.8 C 639 693.5, 633.8 695, 621.2 695.5 C 614.9 695.8, 609.3 696.2, 608.8 696.5 C 608.3 696.8, 608 704.4, 608 713.4 C 608 727, 608.2 730.1, 609.5 731.4 C 610.9 732.8, 624.8 733, 747.1 733 C 838.9 733, 883.7 732.6, 885 731.9 C 886.9 730.9, 887 729.3, 887 679 C 887 650.5, 886.7 626.4, 886.3 625.5 C 885.8 624.2, 883 624, 865 624 L 844.2 624 843.6 627.1 C 843.2 628.8, 843 632, 843 634.3 C 843 642.4, 839.2 659.2, 835.2 669 C 831.2 678.7, 828.8 682.5, 824.4 686 C 814.5 693.9, 808.3 694.9, 765.6 695.7 C 733.3 696.2, 731.6 696.2, 730.3 694.4 C 728.6 692.1, 728.3 618, 730 614.9 C 732.1 610.9, 754 613, 760.8 617.9 C 766.4 621.9, 770.2 632.7, 771.3 647.9 C 771.6 651.9, 772.3 655.7, 772.8 656.2 C 773.8 657.2, 802.6 657.3, 804.1 656.3 C 804.6 656.1, 805 629.4, 805 597 C 805 544.3, 804.8 538.1, 803.4 537.6 C 801.1 536.7, 774.7 536.8, 773.3 537.7 C 772.6 538.2, 771.8 542.7, 771.4 548.4 C 770.8 556.8, 770.1 559.3, 767.2 565.2 C 763.9 571.7, 763.3 572.3, 757.6 575 C 752.3 577.4, 750 577.8, 741.1 578.1 C 733 578.3, 730.6 578, 729.9 576.9 C 729.4 576.1, 729.1 560.5, 729.2 541 L 729.5 506.5 762 506.5 C 798.4 506.5, 802.7 507, 813.8 512.6 C 827.6 519.6, 834.7 531.1, 841.8 558.5 C 842.4 560.7, 843.2 563.5, 843.5 564.7 L 844.1 567 864.8 566.7 L 885.5 566.5 885.7 520 C 885.9 494.4, 885.8 472.4, 885.5 471.2 L 884.9 469 752.2 468.7 C 679.2 468.6, 617.4 468.6, 615 468.8 M 314.4 470.2 C 314.1 470.9, 314 479.2, 314.2 488.5 L 314.5 505.5 326.5 506 C 344.2 506.8, 346.4 508.3, 347.9 520 C 348.5 524.2, 348.9 560, 348.9 601.3 C 349 674.2, 348.5 687.1, 345.6 690.9 C 343.1 694, 337.6 695.3, 326 695.4 L 314.5 695.5 314.2 712.8 C 314 725.2, 314.2 730.6, 315.1 731.6 C 316.9 733.8, 493.4 732.9, 509.5 730.6 C 550.2 724.8, 569.3 714.5, 579.9 692.7 C 586.2 679.5, 587.8 653, 583 639 C 576.9 621, 559.7 606.1, 536.4 598.6 C 524.1 594.6, 520.7 593.1, 521.5 591.9 C 521.8 591.4, 522.7 591, 523.5 591 C 524.3 591, 527.5 589.7, 530.7 588.2 C 550.8 578.8, 564.5 565.1, 570 549 C 572.7 541, 572.9 521.1, 570.5 512.7 C 564 491.1, 548.2 479.4, 515.5 472.1 C 504.2 469.6, 481.2 469, 399.8 469 C 331.5 469, 314.8 469.2, 314.4 470.2 M 435.7 507.5 C 435.3 507.9, 435 523.3, 435 541.5 C 435 570.1, 435.2 575, 436.5 576.3 C 437.7 577.6, 440 577.8, 449.2 577.4 C 468.3 576.6, 477 573.5, 483.4 565.1 C 488.3 558.8, 489.4 554.3, 489.4 540.4 C 489.5 528.9, 489.3 528, 486.5 522.5 C 483.2 516.2, 477 511, 470.1 508.9 C 465.9 507.5, 436.8 506.4, 435.7 507.5 M 435.6 612.6 C 434.8 613.5, 434.7 692.2, 435.6 694.4 C 436.1 695.7, 438.1 696, 448 696 C 483.8 696, 496.9 684.5, 496.9 653 C 496.9 629.3, 487.2 616.8, 465.9 613.1 C 458.8 611.9, 436.7 611.5, 435.6 612.6 M 437.5 740.1 C 416.5 742.8, 403.7 746.4, 387 754.2 C 361.7 766, 335.5 795.5, 326.3 822.1 C 318.7 844.2, 317.4 852.5, 317.5 881 C 317.5 907.4, 318.3 913.3, 325 936.5 C 325.6 938.7, 328.1 944.5, 330.5 949.5 C 348 986.2, 378.1 1007.9, 422.5 1015.9 C 436.9 1018.5, 476.4 1018.8, 490.5 1016.4 C 543.7 1007.2, 575.2 975.1, 581.3 924 C 582.4 915.2, 582.5 911.1, 581.8 910.2 C 581 909.3, 575.7 909, 560.8 909 C 541 909, 541 909, 540.6 911.2 C 540.3 912.4, 539.6 916.6, 539 920.5 C 534.5 946.8, 520.3 967, 500.2 975.5 C 495.4 977.6, 481.9 980, 475.5 979.9 C 460.4 979.8, 445.2 972, 437.6 960.6 C 433.4 954.2, 428.3 942.1, 427 935.2 C 426.5 932.6, 425.8 929.8, 425.5 929 C 422.4 920.6, 420.7 864.3, 423 846 C 426.4 818.1, 432.6 801.4, 443.1 791.4 C 452.7 782.3, 460.3 779.4, 475 779.5 C 496.8 779.7, 510.3 788.4, 521.4 809.3 C 524.7 815.7, 530.4 832.6, 532.4 841.8 C 533.2 845.9, 534.4 849.8, 535 850.6 C 536 851.7, 540.6 852, 558 852 C 578 852, 580 851.8, 580.8 850.2 C 581.4 849.1, 581.8 827.7, 581.9 797.2 C 582 751.8, 581.8 745.9, 580.4 744.5 C 579.1 743.2, 576.1 743, 563 743 C 539.1 743, 538.7 743, 536 749.6 C 533 756.8, 531.6 757.4, 524.9 754.3 C 506.3 745.5, 496.7 742.9, 474 740.4 C 459.2 738.8, 448.3 738.7, 437.5 740.1 M 684.5 749.2 C 683.7 750.5, 682.1 754.2, 681 757.5 C 679.9 760.8, 677 769.3, 674.4 776.5 C 671.9 783.6, 667.6 796, 664.9 804 C 662.2 811.9, 659.3 820.3, 658.5 822.5 C 656.3 828.6, 643.5 865.6, 641 873 C 639.8 876.5, 638.4 880.4, 637.9 881.5 C 637.4 882.6, 634.3 891.3, 631.1 901 C 613.4 952.7, 610.3 960.4, 604.6 966.1 C 599.8 970.9, 594.2 973.2, 585.5 973.9 L 577.5 974.5 577.2 991.3 C 577 1002.9, 577.3 1008.6, 578 1009.6 C 579 1010.7, 588.8 1010.9, 635.8 1010.9 C 667 1010.9, 693 1010.6, 693.7 1010.1 C 694.7 1009.5, 694.9 1005.1, 694.7 991.9 L 694.5 974.5 684 973.9 C 678.2 973.5, 672 972.9, 670.2 972.5 C 665.6 971.4, 662.6 967.4, 663.4 963.3 C 664.1 959.4, 672.5 934.1, 673.3 933.2 C 673.7 932.9, 674 931.6, 674 930.4 C 674 926, 674.9 925.9, 711.5 926.2 L 746.4 926.5 749.1 934 C 755.8 953, 758.2 961.8, 757.4 966 C 756.4 972.1, 754.1 973.1, 740.2 973.6 C 722 974.3, 724 972, 724 992.4 C 724 1007.3, 724.2 1009.8, 725.5 1010.3 C 727.9 1011.2, 881.2 1011.1, 882.7 1010.2 C 883.9 1009.4, 884.7 977, 883.6 975.1 C 883.3 974.6, 878.2 974, 872.2 973.7 C 860.8 973.1, 855.9 971.7, 852.3 967.8 C 849.3 964.6, 844.6 954, 840.9 941.7 C 839.2 936.1, 836.8 928.3, 835.5 924.5 C 834.2 920.6, 832.4 914.8, 831.4 911.5 C 830.5 908.2, 828.6 902.3, 827.4 898.5 C 826.1 894.6, 823 884.7, 820.5 876.5 C 817.9 868.2, 815 859, 814 856 C 813 852.9, 810.5 845.1, 808.5 838.5 C 806.5 831.9, 804.4 825.3, 804 824 C 803.5 822.6, 801.5 816.1, 799.4 809.5 C 793.1 788.8, 786.9 768.8, 783.9 759.5 C 782.3 754.6, 781 750.1, 781 749.4 C 781 748.7, 780.2 747.9, 779.4 747.6 C 778.5 747.2, 757.1 747, 731.9 747 L 686 747 684.5 749.2 M 708.5 813.7 C 707.8 815.3, 705.6 823.1, 701.4 838.5 C 700.7 841.2, 699.3 845.9, 698.4 849 C 697.5 852, 696.2 856.7, 695.5 859.5 C 694.7 862.2, 692.7 869.4, 691 875.4 C 689.1 882, 688.2 886.6, 688.8 887.2 C 689.8 888.2, 728.4 889.3, 731.3 888.3 C 733.4 887.7, 733.3 886.3, 730.5 876.5 C 729.5 873.2, 728.4 869.1, 727.9 867.5 C 726 860.3, 719.8 840.3, 719 838.5 C 718.5 837.4, 716.6 831.1, 714.8 824.5 C 711.4 812.8, 709.9 810.1, 708.5 813.7"/></symbol>
+      <symbol id="seta" viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+      <symbol id="mais" viewBox="0 0 16 16"><path d="M8 2.5v11M2.5 8h11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+      <symbol id="tesoura" viewBox="0 0 24 48"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M10.5 30L13 3.5M13.5 30L11 3.5"/><circle cx="7.5" cy="37.5" r="4.6"/><circle cx="16.5" cy="37.5" r="4.6"/><path d="M10.6 33.2l1.4-3.2 1.4 3.2"/></g></symbol>
+      <symbol id="zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.85 9.85 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.24 8.24 0 0 1 8.24 8.25c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.8-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+    </defs>
+  </svg>
+
+  <main id="topo">
+    <!-- HERO: abre com o pente passando no cabelo e assenta na cadeira sob o foco -->
+    <section class="hero" data-cena aria-labelledby="hero-titulo">
+      <div class="hero__fixo">
+        <div class="hero__cabelo" aria-hidden="true"></div>
+        <div class="hero__foco" aria-hidden="true"></div>
+        <svg class="hero__trilha" aria-hidden="true"></svg>
+        <img class="hero__pente" src="./ferramenta-pente.webp" alt="" aria-hidden="true" decoding="async">
+
+        <h1 class="hero__nome" id="hero-titulo">
+          <span class="hero__frase" data-ui>
+            <span class="hero__frase-leve">11 anos de corte e barba.</span>
+            <span class="hero__frase-forte">Apucarana conhece a</span>
+          </span>
+          <span class="hero__p hero__p--1" data-t="barber">barber</span>
+          <span class="hero__p hero__p--2" data-t="lobeca">lobeca</span>
+        </h1>
+        <canvas class="hero__gl" aria-hidden="true"></canvas>
+
+        <p class="hero__status mono" data-ui><span class="ponto" aria-hidden="true"></span><span data-status>Aberto agora · até 20:00</span></p>
+        <div class="hero__base" data-ui>
+          <p class="hero__texto">Corte, barba e visagismo no Centro de Apucarana. <strong>Agende no CashBarber ou pelo WhatsApp em menos de um minuto.</strong></p>
+          <div class="hero__botoes">
+            <button class="botao botao--claro botao--seta" type="button" data-agendar>Agendar horário</button>
+            <a class="botao botao--linha" href="#clube">Ver planos</a>
+          </div>
+          <p class="hero__nota mono"><span aria-hidden="true">★★★★★</span> 4,9 · 387 avaliações no Google</p>
+        </div>
+
+        <div class="abertura__ui" aria-hidden="true">
+          <p class="abertura__canto abertura__canto--se mono">Lobeca · Barbershop</p>
+          <button class="abertura__pular mono" type="button" tabindex="-1">Pular →</button>
+          <p class="abertura__canto abertura__canto--ie mono">Corte · barba · visagismo</p>
+          <p class="abertura__canto abertura__canto--id mono">Pente <b data-contador>#8</b></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- #0 O CARDÁPIO: serviços numerados como os pentes da máquina; a ferramenta do serviço segue o cursor.
+         O agendamento lê daqui: número, nome, preço, data-min (duração estimada, só para o lembrete) e data-ferramenta -->
+    <section class="cardapio secao secao--clara" id="cardapio" aria-labelledby="cardapio-titulo">
+      <div class="secao__miolo">
+        <p class="rotulo mono">#0 · Serviços</p>
+        <h2 class="titulo" id="cardapio-titulo" data-titulo><span class="leve">Todo corte</span> <span class="forte">tem um número.</span></h2>
+        <p class="secao__texto">Os preços da casa, sem surpresa na cadeira. Quem é assinante VIP ou Exclusive não paga corte nem barba.</p>
+        <ol class="cardapio__lista" data-lista>
+          <li class="linha" data-servico="0" data-ferramenta="maquina" data-min="45">
+            <span class="linha__num">#0</span>
+            <span class="linha__nome"><strong>Corte</strong><small>o corte completo, na máquina e na tesoura, do jeito que combina com você</small></span>
+            <span class="linha__tempo mono">nos planos</span>
+            <span class="linha__preco">R$ 75</span>
+            <button class="pilula" type="button" data-agendar="0">Agendar</button>
+          </li>
+          <li class="linha" data-servico="1" data-ferramenta="aparador" data-min="30">
+            <span class="linha__num">#1</span>
+            <span class="linha__nome"><strong>Corte raspado</strong><small>máquina na cabeça toda, acabamento limpo</small></span>
+            <span class="linha__tempo mono">nos planos</span>
+            <span class="linha__preco">R$ 40</span>
+            <button class="pilula" type="button" data-agendar="1">Agendar</button>
+          </li>
+          <li class="linha" data-servico="2" data-ferramenta="navalha" data-min="40">
+            <span class="linha__num">#2</span>
+            <span class="linha__nome"><strong>Barba</strong><small>desenho, navalha e acabamento</small></span>
+            <span class="linha__tempo mono">nos planos</span>
+            <span class="linha__preco">R$ 65</span>
+            <button class="pilula" type="button" data-agendar="2">Agendar</button>
+          </li>
+          <li class="linha" data-servico="3" data-ferramenta="pincel" data-min="25">
+            <span class="linha__num">#3</span>
+            <span class="linha__nome"><strong>Barba express</strong><small>higienização da barba, rápida entre um corte e outro</small></span>
+            <span class="linha__tempo mono">nos planos</span>
+            <span class="linha__preco">R$ 40</span>
+            <button class="pilula" type="button" data-agendar="3">Agendar</button>
+          </li>
+          <li class="linha" data-servico="4" data-ferramenta="aparador" data-min="15">
+            <span class="linha__num">#4</span>
+            <span class="linha__nome"><strong>Acabamento · pezinho</strong><small>nuca e contorno em dia entre um corte e outro</small></span>
+            <span class="linha__tempo mono">nos planos</span>
+            <span class="linha__preco">R$ 25</span>
+            <button class="pilula" type="button" data-agendar="4">Agendar</button>
+          </li>
+          <li class="linha" data-servico="5" data-ferramenta="tesoura" data-min="15">
+            <span class="linha__num">#5</span>
+            <span class="linha__nome"><strong>Design de sobrancelha</strong><small>design masculino, natural</small></span>
+            <span class="linha__tempo mono">extra</span>
+            <span class="linha__preco">R$ 29</span>
+            <button class="pilula" type="button" data-agendar="5">Agendar</button>
+          </li>
+          <li class="linha" data-servico="6" data-ferramenta="pente" data-min="60">
+            <span class="linha__num">#6</span>
+            <span class="linha__nome"><strong>Consultoria de visagismo</strong><small>para o cliente novo: o corte pensado para o seu rosto</small></span>
+            <span class="linha__tempo mono">cliente novo</span>
+            <span class="linha__preco">R$ 75</span>
+            <button class="pilula" type="button" data-agendar="6">Agendar</button>
+          </li>
+        </ol>
+        <p class="cardapio__pe mono">Também na casa · selagem e progressiva a partir de R$ 119 · coloração e platinado R$ 199 · pigmentação R$ 45 · hidratação a partir de R$ 29 · esfoliação + máscara R$ 29 · depilação nasal ou auricular R$ 25</p>
+      </div>
+      <div class="cardapio__ferramenta" aria-hidden="true"></div>
+    </section>
+
+    <!-- #1 POR QUE A LOBECA: a frase no meio; relógio, pomada e borrifador giram em volta e trocam o dado de baixo -->
+    <section class="manifesto secao--clara" id="porque" data-cena aria-labelledby="manifesto-titulo">
+      <div class="manifesto__fixo">
+        <p class="rotulo mono manifesto__rotulo">#1 · Por que a Lobeca</p>
+        <canvas class="manifesto__gl manifesto__gl--fundo" aria-hidden="true"></canvas>
+        <h2 class="manifesto__frase" id="manifesto-titulo" data-titulo>
+          <span class="leve">Ninguém merece mandar direct à meia-noite por</span>
+          <span class="forte">um horário às 14h.</span>
+        </h2>
+        <canvas class="manifesto__gl manifesto__gl--frente"></canvas>
+        <div class="manifesto__pilula" aria-live="polite">
+          <span class="manifesto__grande" data-fato-grande>11 anos</span>
+          <span class="manifesto__legenda mono" data-fato-legenda>de excelência no Centro de Apucarana</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- #2 AS CADEIRAS: sete espelhos com luminária; o escolhido abre e acende. As fotos vêm do CashBarber da casa -->
+    <section class="espelhos secao secao--escura" id="espelhos" data-cena aria-labelledby="espelhos-titulo">
+      <div class="espelhos__fixo">
+        <div class="secao__miolo">
+          <p class="rotulo mono">#2 · A equipe</p>
+          <h2 class="titulo" id="espelhos-titulo" data-titulo><span class="leve">Sete cadeiras.</span> <span class="forte">Escolha a sua.</span></h2>
+          <p class="secao__texto">Cada profissional tem a própria agenda. Escolha um espelho para acender a luz dele.</p>
+          <div class="espelhos__fila" role="tablist" aria-label="Barbeiros">
+            <button class="espelho is-ativo" type="button" role="tab" aria-selected="true" data-barbeiro="0">
+              <span class="espelho__luminaria" aria-hidden="true"><i></i></span>
+              <span class="espelho__vidro"><img src="https://cdn.cashbarber.com.br/1772118768-675735.jpeg" alt="Luís Henrique" loading="lazy" decoding="async"></span>
+              <span class="espelho__info"><span class="espelho__num">#1</span><span class="espelho__nome">Luís Henrique</span><span class="espelho__extra mono">Profissional visagista</span></span>
+            </button>
+            <button class="espelho" type="button" role="tab" aria-selected="false" data-barbeiro="1">
+              <span class="espelho__luminaria" aria-hidden="true"><i></i></span>
+              <span class="espelho__vidro"><img src="https://cdn.cashbarber.com.br/1774722719-943730.PNG" alt="Guilherme Gustavo" loading="lazy" decoding="async"></span>
+              <span class="espelho__info"><span class="espelho__num">#2</span><span class="espelho__nome">Guilherme Gustavo</span><span class="espelho__extra mono">Profissional visagista</span></span>
+            </button>
+            <button class="espelho" type="button" role="tab" aria-selected="false" data-barbeiro="2">
+              <span class="espelho__luminaria" aria-hidden="true"><i></i></span>
+              <span class="espelho__vidro"><img src="https://cdn.cashbarber.com.br/1774722546-484491.PNG" alt="Marcelo" loading="lazy" decoding="async"></span>
+              <span class="espelho__info"><span class="espelho__num">#3</span><span class="espelho__nome">Marcelo</span><span class="espelho__extra mono">Profissional visagista</span></span>
+            </button>
+            <button class="espelho" type="button" role="tab" aria-selected="false" data-barbeiro="3">
+              <span class="espelho__luminaria" aria-hidden="true"><i></i></span>
+              <span class="espelho__vidro"><img src="https://cdn.cashbarber.com.br/1774722574-960090.PNG" alt="Yohan dos Santos de Oliveira" loading="lazy" decoding="async"></span>
+              <span class="espelho__info"><span class="espelho__num">#4</span><span class="espelho__nome">Yohan</span><span class="espelho__extra mono">Barbeiro</span></span>
+            </button>
+            <button class="espelho" type="button" role="tab" aria-selected="false" data-barbeiro="4">
+              <span class="espelho__luminaria" aria-hidden="true"><i></i></span>
+              <span class="espelho__vidro"><img src="https://cdn.cashbarber.com.br/1774722088-925062.PNG" alt="Ronaldo Jr." loading="lazy" decoding="async"></span>
+              <span class="espelho__info"><span class="espelho__num">#5</span><span class="espelho__nome">Ronaldo Jr.</span><span class="espelho__extra mono">Barbeiro</span></span>
+            </button>
+            <button class="espelho" type="button" role="tab" aria-selected="false" data-barbeiro="5">
+              <span class="espelho__luminaria" aria-hidden="true"><i></i></span>
+              <span class="espelho__vidro"><img src="https://cdn.cashbarber.com.br/1781712534-374501.png" alt="Andre da Silva" loading="lazy" decoding="async"></span>
+              <span class="espelho__info"><span class="espelho__num">#6</span><span class="espelho__nome">Andre</span><span class="espelho__extra mono">Barbeiro</span></span>
+            </button>
+            <button class="espelho" type="button" role="tab" aria-selected="false" data-barbeiro="6">
+              <span class="espelho__luminaria" aria-hidden="true"><i></i></span>
+              <span class="espelho__vidro"><img src="https://cdn.cashbarber.com.br/1788619762-160873.jpeg" alt="Lucas Martins" loading="lazy" decoding="async"></span>
+              <span class="espelho__info"><span class="espelho__num">#7</span><span class="espelho__nome">Lucas Martins</span><span class="espelho__extra mono">Barbeiro</span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESTILOS: referências por tipo de corte; a foto vira de costas no hover (no celular, ao passar pelo meio).
+         As fotos são ilustrativas: trocar pelas fotos de cortes da casa -->
+    <section class="cortes secao secao--escura" id="cortes" aria-labelledby="cortes-titulo">
+      <div class="secao__miolo">
+        <h2 class="sr" id="cortes-titulo">Estilos para levar de referência</h2>
+        <div class="filtros" role="group" aria-label="Filtrar estilos">
+          <button class="filtro is-ativo" type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+          <button class="filtro" type="button" data-filtro="0" aria-pressed="false">Degradê</button>
+          <button class="filtro" type="button" data-filtro="1" aria-pressed="false">Social e tesoura</button>
+          <button class="filtro" type="button" data-filtro="2" aria-pressed="false">Com barba</button>
+        </div>
+        <ul class="cortes__grade">
+          <li class="corte" data-barbeiro="0">
+            <button class="corte__foto" type="button" aria-label="Ver o degradê com risca de costas">
+              <img class="corte__frente" src="./corte-1-frente.webp" alt="Degradê com risca, de frente" loading="lazy" decoding="async">
+              <img class="corte__costas" src="./corte-1-costas.webp" alt="" loading="lazy" decoding="async">
+              <span class="corte__dica mono">Ver de costas</span>
+            </button>
+            <div class="corte__pe"><h3>Degradê com risca</h3><span class="corte__preco">R$ 75</span><button class="corte__agendar mono" type="button" data-agendar="0">Agendar este corte</button></div>
+          </li>
+          <li class="corte" data-barbeiro="0">
+            <button class="corte__foto" type="button" aria-label="Ver o cacheado disfarçado de costas">
+              <img class="corte__frente" src="./corte-2-frente.webp" alt="Cacheado com disfarçado, de frente" loading="lazy" decoding="async">
+              <img class="corte__costas" src="./corte-2-costas.webp" alt="" loading="lazy" decoding="async">
+              <span class="corte__dica mono">Ver de costas</span>
+            </button>
+            <div class="corte__pe"><h3>Cacheado disfarçado</h3><span class="corte__preco">R$ 75</span><button class="corte__agendar mono" type="button" data-agendar="0">Agendar este corte</button></div>
+          </li>
+          <li class="corte" data-barbeiro="1">
+            <button class="corte__foto" type="button" aria-label="Ver a franja texturizada de costas">
+              <img class="corte__frente" src="./corte-3-frente.webp" alt="Franja texturizada, de frente" loading="lazy" decoding="async">
+              <img class="corte__costas" src="./corte-3-costas.webp" alt="" loading="lazy" decoding="async">
+              <span class="corte__dica mono">Ver de costas</span>
+            </button>
+            <div class="corte__pe"><h3>Franja texturizada</h3><span class="corte__preco">R$ 75</span><button class="corte__agendar mono" type="button" data-agendar="0">Agendar este corte</button></div>
+          </li>
+          <li class="corte" data-barbeiro="1">
+            <button class="corte__foto" type="button" aria-label="Ver o social com risca de costas">
+              <img class="corte__frente" src="./corte-4-frente.webp" alt="Social com risca lateral, de frente" loading="lazy" decoding="async">
+              <img class="corte__costas" src="./corte-4-costas.webp" alt="" loading="lazy" decoding="async">
+              <span class="corte__dica mono">Ver de costas</span>
+            </button>
+            <div class="corte__pe"><h3>Social com risca</h3><span class="corte__preco">R$ 75</span><button class="corte__agendar mono" type="button" data-agendar="0">Agendar este corte</button></div>
+          </li>
+          <li class="corte" data-barbeiro="2">
+            <button class="corte__foto" type="button" aria-label="Ver a máquina com barba de costas">
+              <img class="corte__frente" src="./corte-5-frente.webp" alt="Máquina com contorno e barba, de frente" loading="lazy" decoding="async">
+              <img class="corte__costas" src="./corte-5-costas.webp" alt="" loading="lazy" decoding="async">
+              <span class="corte__dica mono">Ver de costas</span>
+            </button>
+            <div class="corte__pe"><h3>Máquina e barba</h3><span class="corte__preco">R$ 140</span><button class="corte__agendar mono" type="button" data-agendar="0">Agendar este corte</button></div>
+          </li>
+          <li class="corte" data-barbeiro="1">
+            <button class="corte__foto" type="button" aria-label="Ver o topete solto de costas">
+              <img class="corte__frente" src="./corte-6-frente.webp" alt="Topete solto, de frente" loading="lazy" decoding="async">
+              <img class="corte__costas" src="./corte-6-costas.webp" alt="" loading="lazy" decoding="async">
+              <span class="corte__dica mono">Ver de costas</span>
+            </button>
+            <div class="corte__pe"><h3>Topete solto</h3><span class="corte__preco">R$ 75</span><button class="corte__agendar mono" type="button" data-agendar="0">Agendar este corte</button></div>
+          </li>
+          <li class="corte" data-barbeiro="0">
+            <button class="corte__foto" type="button" aria-label="Ver o degradê com desenho de costas">
+              <img class="corte__frente" src="./corte-7-frente.webp" alt="Degradê com desenho na lateral, de frente" loading="lazy" decoding="async">
+              <img class="corte__costas" src="./corte-7-costas.webp" alt="" loading="lazy" decoding="async">
+              <span class="corte__dica mono">Ver de costas</span>
+            </button>
+            <div class="corte__pe"><h3>Degradê com desenho</h3><span class="corte__preco">R$ 75</span><button class="corte__agendar mono" type="button" data-agendar="0">Agendar este corte</button></div>
+          </li>
+          <li class="corte" data-barbeiro="2">
+            <button class="corte__foto" type="button" aria-label="Ver a barba cheia de costas">
+              <img class="corte__frente" src="./corte-8-frente.webp" alt="Barba cheia desenhada com degradê baixo, de frente" loading="lazy" decoding="async">
+              <img class="corte__costas" src="./corte-8-costas.webp" alt="" loading="lazy" decoding="async">
+              <span class="corte__dica mono">Ver de costas</span>
+            </button>
+            <div class="corte__pe"><h3>Barba cheia</h3><span class="corte__preco">R$ 65</span><button class="corte__agendar mono" type="button" data-agendar="2">Agendar esta barba</button></div>
+          </li>
+        </ul>
+        <p class="cortes__nota mono">Fotos de referência · não sabe o que pedir? Marque a consultoria de visagismo</p>
+      </div>
+    </section>
+
+    <!-- #3 O CLUBE: três planos em leque (os mais vendidos), a calculadora e a lista completa dos 12 planos do CashBarber -->
+    <section class="clube secao secao--clara" id="clube" aria-labelledby="clube-titulo">
+      <div class="secao__miolo">
+        <p class="rotulo mono">#3 · Clube do assinante</p>
+        <h2 class="titulo" id="clube-titulo" data-titulo><span class="leve">Seu corte,</span> <span class="forte">no calendário.</span></h2>
+        <p class="secao__texto">Mais de 450 membros já pagam um valor fixo por mês e voltam quantas vezes quiserem. A assinatura é feita no CashBarber, sem fidelidade de prazo.</p>
+        <div class="clube__leque">
+          <article class="plano plano--a">
+            <h3 class="plano__nome mono">Corte VIP</h3>
+            <p class="plano__preco"><span>R$ 122,90</span><small>/mês</small></p>
+            <ul class="plano__itens"><li>Corte à vontade</li><li>Corte raspado e pezinho</li><li>De segunda a sábado</li></ul>
+            <p class="plano__economia mono">Indo toda semana, economiza <b data-conta="177">R$ 00</b> por mês</p>
+            <a class="botao botao--linha botao--pequeno" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/4161/detalhes" target="_blank" rel="noopener">Assinar</a>
+          </article>
+          <article class="plano plano--b">
+            <span class="plano__selo mono">Mais vendido</span>
+            <h3 class="plano__nome mono">Corte e barba VIP</h3>
+            <p class="plano__preco"><span>R$ 209,90</span><small>/mês</small></p>
+            <ul class="plano__itens"><li>Corte e barba à vontade</li><li>Raspado, pezinho e barba express</li><li>De segunda a sábado</li></ul>
+            <p class="plano__economia plano__economia--grande mono">Indo toda semana, economiza <b data-conta="350">R$ 00</b> por mês</p>
+            <a class="botao botao--claro botao--seta" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/4162/detalhes" target="_blank" rel="noopener">Assinar no CashBarber</a>
+          </article>
+          <article class="plano plano--c">
+            <h3 class="plano__nome mono">Corte e barba Exclusive</h3>
+            <p class="plano__preco"><span>R$ 259,90</span><small>/mês</small></p>
+            <ul class="plano__itens"><li>Tudo do VIP</li><li>Corte e barba assinatura exclusive</li><li>Consultoria de cliente novo</li></ul>
+            <p class="plano__economia mono">Indo toda semana, economiza <b data-conta="300">R$ 00</b> por mês</p>
+            <a class="botao botao--linha botao--pequeno" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/23952/detalhes" target="_blank" rel="noopener">Assinar</a>
+          </article>
+        </div>
+
+        <!-- CALCULADORA: quantas vezes você vai no mês → o plano que sai mais barato e quanto economiza -->
+        <div class="calc" id="calculadora" aria-labelledby="calc-titulo">
+          <div class="calc__entrada">
+            <p class="rotulo mono">Calculadora do clube</p>
+            <h3 class="calc__titulo" id="calc-titulo"><span class="leve">Quanto você</span> <span class="forte">economiza?</span></h3>
+            <div class="calc__campo">
+              <span class="calc__rotulo">Cortes por mês</span>
+              <div class="passo" data-calc="cortes"><button type="button" data-menos aria-label="Menos cortes">−</button><output data-valor>2</output><button type="button" data-mais aria-label="Mais cortes">+</button></div>
+            </div>
+            <div class="calc__campo">
+              <span class="calc__rotulo">Barbas por mês</span>
+              <div class="passo" data-calc="barbas"><button type="button" data-menos aria-label="Menos barbas">−</button><output data-valor>2</output><button type="button" data-mais aria-label="Mais barbas">+</button></div>
+            </div>
+            <div class="calc__campo calc__campo--dias">
+              <span class="calc__rotulo">Que dias você pode ir?</span>
+              <div class="calc__dias" role="radiogroup" aria-label="Dias">
+                <button type="button" class="valor is-ativo" role="radio" aria-checked="true" data-dias="todos">Seg a sáb</button>
+                <button type="button" class="valor" role="radio" aria-checked="false" data-dias="semana">Só seg a qua</button>
+              </div>
+            </div>
+          </div>
+          <div class="calc__saida" aria-live="polite">
+            <p class="calc__linha mono"><span>Avulso, no mês</span><b data-calc-avulso>R$ 280,00</b></p>
+            <p class="calc__linha mono"><span>Melhor para você</span><b data-calc-plano>Corte e barba VIP</b></p>
+            <p class="calc__linha mono"><span>Mensalidade</span><b data-calc-mensal>R$ 209,90</b></p>
+            <p class="calc__economia"><small class="mono" data-calc-rotulo>Você economiza por mês</small><span data-calc-economia>R$ 70,10</span><small class="mono" data-calc-ano>R$ 841,20 em um ano</small></p>
+            <div class="calc__botoes">
+              <a class="botao botao--claro botao--seta" data-calc-link href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/4162/detalhes" target="_blank" rel="noopener">Assinar este plano</a>
+              <a class="botao botao--linha botao--pequeno" data-calc-zap href="https://wa.me/5543999172749" target="_blank" rel="noopener">Tirar dúvida no WhatsApp</a>
+            </div>
+            <p class="calc__nota mono">Valores da tabela da casa (corte R$ 75, barba R$ 65). Planos Empresariais e Exclusive estão na lista abaixo.</p>
+          </div>
+        </div>
+
+        <!-- TODOS OS PLANOS: a lista completa, igual ao CashBarber; cada linha abre o plano lá -->
+        <div class="planos">
+          <h3 class="planos__titulo"><span class="leve">Todos os</span> <span class="forte">12 planos.</span></h3>
+          <ul class="planos__lista">
+            <li class="plano-linha"><span class="plano-linha__nome">Corte e barba Exclusive<em class="mono">mais vendido</em></span><span class="plano-linha__inclui">Corte, barba, corte e barba assinatura exclusive, raspado, pezinho e barba express à vontade · consultoria de cliente novo · 5% em extras e produtos</span><span class="plano-linha__dias mono">seg a sáb</span><span class="plano-linha__preco">R$ 259,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/23952/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Corte e barba Exclusive Limitado</span><span class="plano-linha__inclui">Corte, barba, raspado e barba express à vontade · consultoria de cliente novo</span><span class="plano-linha__dias mono">seg a sáb</span><span class="plano-linha__preco">R$ 239,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/24177/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Corte e barba VIP<em class="mono">mais vendido</em></span><span class="plano-linha__inclui">Corte, barba, raspado, pezinho e barba express à vontade · consultoria de cliente novo · 5% em extras e produtos</span><span class="plano-linha__dias mono">seg a sáb</span><span class="plano-linha__preco">R$ 209,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/4162/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Corte e barba Week</span><span class="plano-linha__inclui">Corte, barba, raspado, pezinho e barba express à vontade · consultoria de cliente novo</span><span class="plano-linha__dias mono">seg a qua</span><span class="plano-linha__preco">R$ 189,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/33634/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Corte e barba Empresarial</span><span class="plano-linha__inclui">Corte, barba, raspado, pezinho e barba express à vontade</span><span class="plano-linha__dias mono">seg a qua</span><span class="plano-linha__preco">R$ 169,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/35234/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Corte Exclusive</span><span class="plano-linha__inclui">Corte e corte raspado à vontade</span><span class="plano-linha__dias mono">seg a sáb</span><span class="plano-linha__preco">R$ 172,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/24175/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Corte VIP</span><span class="plano-linha__inclui">Corte, raspado e pezinho à vontade · consultoria de cliente novo</span><span class="plano-linha__dias mono">seg a sáb</span><span class="plano-linha__preco">R$ 122,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/4161/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Corte Empresarial</span><span class="plano-linha__inclui">Corte, raspado e pezinho à vontade</span><span class="plano-linha__dias mono">seg a qua</span><span class="plano-linha__preco">R$ 89,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/35233/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Barba Exclusive</span><span class="plano-linha__inclui">Barba e barba express à vontade</span><span class="plano-linha__dias mono">seg a sáb</span><span class="plano-linha__preco">R$ 172,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/24172/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Barba VIP</span><span class="plano-linha__inclui">Barba e barba express à vontade · consultoria de cliente novo</span><span class="plano-linha__dias mono">seg a sáb</span><span class="plano-linha__preco">R$ 122,90</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/808/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Barba Week</span><span class="plano-linha__inclui">Barba e barba express à vontade · 5% em produtos</span><span class="plano-linha__dias mono">seg a qua</span><span class="plano-linha__preco">R$ 99,00</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/33953/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+            <li class="plano-linha"><span class="plano-linha__nome">Plano ONE</span><span class="plano-linha__inclui">Um corte por mês incluso (seg a qui) · 5% em serviços extras</span><span class="plano-linha__dias mono">seg a qui</span><span class="plano-linha__preco">R$ 65,00</span><a class="pilula" href="https://cashbarber.com.br/lobecabarbershop/inicio/plano/29946/detalhes" target="_blank" rel="noopener">Assinar</a></li>
+          </ul>
+          <p class="planos__pe mono">Valores mensais, vigência indeterminada · regras de uso e contratação no CashBarber · <a href="https://cashbarber.com.br/lobecabarbershop/inicio" target="_blank" rel="noopener">abrir o CashBarber da Lobeca →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- #4 A BANCADA: o que o barbeiro usou, em pedestal sob o foco; reservar pelo WhatsApp -->
+    <section class="loja secao secao--escura" id="loja" aria-labelledby="loja-titulo">
+      <div class="secao__miolo">
+        <p class="rotulo mono">#4 · A bancada</p>
+        <h2 class="titulo" id="loja-titulo" data-titulo><span class="leve">O que seu barbeiro</span> <span class="forte">usou em você.</span></h2>
+        <p class="secao__texto">Mais de 30 produtos na loja da casa. Reserve pelo WhatsApp e leve no dia do corte.</p>
+        <ul class="loja__grade">
+          <li class="produto"><div class="produto__foto"><img src="./produto-pomada.webp" alt="Lata de pomada num pedestal preto" loading="lazy" decoding="async"></div><div class="produto__pe"><h3>Pomada B.Urb Matte</h3><span class="produto__preco">R$ 64</span><span class="produto__det mono">efeito seco</span><a class="pilula pilula--escura" href="https://wa.me/5543999172749?text=Ol%C3%A1!%20Quero%20reservar%20a%20Pomada%20B.Urb%20Matte." target="_blank" rel="noopener">Reservar</a></div></li>
+          <li class="produto"><div class="produto__foto"><img src="./produto-oleo.webp" alt="Frasco de óleo para barba com conta-gotas" loading="lazy" decoding="async"></div><div class="produto__pe"><h3>Óleo para barba</h3><span class="produto__preco">R$ 50</span><span class="produto__det mono">hidrata e perfuma</span><a class="pilula pilula--escura" href="https://wa.me/5543999172749?text=Ol%C3%A1!%20Quero%20reservar%20o%20%C3%93leo%20para%20barba." target="_blank" rel="noopener">Reservar</a></div></li>
+          <li class="produto"><div class="produto__foto"><img src="./produto-tonico.webp" alt="Frasco de leave-in de vidro fosco" loading="lazy" decoding="async"></div><div class="produto__pe"><h3>Leave-in B.Urb</h3><span class="produto__preco">R$ 55</span><span class="produto__det mono">cabelo alinhado o dia todo</span><a class="pilula pilula--escura" href="https://wa.me/5543999172749?text=Ol%C3%A1!%20Quero%20reservar%20o%20Leave-in%20B.Urb." target="_blank" rel="noopener">Reservar</a></div></li>
+          <li class="produto"><div class="produto__foto produto__foto--maquina"><img src="./ferramenta-aparador.webp" alt="Máquina de acabamento" loading="lazy" decoding="async"></div><div class="produto__pe"><h3>Máquina de acabamento</h3><span class="produto__preco">R$ 199</span><span class="produto__det mono">o pezinho em casa</span><a class="pilula pilula--escura" href="https://wa.me/5543999172749?text=Ol%C3%A1!%20Quero%20reservar%20a%20M%C3%A1quina%20de%20acabamento." target="_blank" rel="noopener">Reservar</a></div></li>
+        </ul>
+        <p class="loja__nota mono">Assinantes de vários planos têm 5% de desconto nos produtos</p>
+      </div>
+    </section>
+
+    <!-- OCASIÕES: cartão de metal que assenta com a rolagem; o valor troca rolando como hodômetro -->
+    <section class="presente secao secao--escura" id="presente" aria-labelledby="presente-titulo">
+      <div class="secao__miolo presente__miolo">
+        <div class="presente__palco">
+          <div class="cartao-metal" aria-hidden="true">
+            <div class="cartao-metal__brilho"></div>
+            <svg class="marca cartao-metal__marca"><use href="#marca"/></svg>
+            <p class="cartao-metal__nome" data-cartao-nome>Dia do noivo</p>
+            <p class="cartao-metal__valor"><span>R$</span> <span class="odometro" data-valor="1250">1250</span></p>
+            <p class="cartao-metal__pe mono" data-cartao-pe>Noivo + 4 padrinhos · Lobeca Barbershop</p>
+          </div>
+        </div>
+        <div class="presente__texto">
+          <h2 class="titulo" id="presente-titulo" data-titulo><span class="leve">Para o dia</span> <span class="forte">que importa.</span></h2>
+          <p class="secao__texto">O Dia do Noivo leva o noivo e quatro padrinhos para a cadeira. E para mudar de vez: coloração, platinado e selagem.</p>
+          <div class="presente__valores" role="radiogroup" aria-label="Serviço especial">
+            <button class="valor is-ativo" type="button" role="radio" aria-checked="true" data-valor="1250" data-nome="Dia do noivo" data-pe="Noivo + 4 padrinhos · Lobeca Barbershop">Dia do noivo</button>
+            <button class="valor" type="button" role="radio" aria-checked="false" data-valor="199" data-nome="Coloração · platinado" data-pe="Coloração personalizada · Lobeca Barbershop">Platinado</button>
+            <button class="valor" type="button" role="radio" aria-checked="false" data-valor="119" data-nome="Selagem · progressiva" data-pe="A partir de · Lobeca Barbershop">Selagem</button>
+          </div>
+          <button class="botao botao--claro botao--seta" type="button" data-presente>Reservar no WhatsApp</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- #5 DITO NA CADEIRA: a nota rola como hodômetro; avaliações reais do Google, resumidas -->
+    <section class="avaliacoes secao secao--clara" id="avaliacoes" aria-labelledby="avaliacoes-titulo">
+      <div class="secao__miolo avaliacoes__miolo">
+        <div class="avaliacoes__nota">
+          <p class="rotulo mono">#5 · Dito na cadeira</p>
+          <h2 class="sr" id="avaliacoes-titulo">Nota 4,9 no Google</h2>
+          <p class="nota-grande" aria-hidden="true"><span class="odometro" data-valor="4">4</span><span class="nota-grande__virgula">,</span><span class="odometro" data-valor="9">9</span></p>
+          <p class="mono avaliacoes__fonte"><span aria-hidden="true">★★★★★</span> · 387 avaliações no Google</p>
+        </div>
+        <div class="pilha" aria-roledescription="carrossel" aria-label="Depoimentos">
+          <blockquote class="depo"><p>“Profissionais atenciosos, com atendimento diferenciado. Vocês ganham nos pequenos detalhes.”</p><footer class="mono">Anderson Faria · Google</footer></blockquote>
+          <blockquote class="depo"><p>“Corte impecável, atenção aos detalhes e ótimo atendimento do início ao fim.”</p><footer class="mono">Lucas Garcia · Google</footer></blockquote>
+          <blockquote class="depo"><p>“Fui atendido pelo Lucas Martins. Muito atencioso, talentoso e competente. Recomendo.”</p><footer class="mono">Andrey Goncalves · Google</footer></blockquote>
+          <blockquote class="depo"><p>“Pessoal bacana e atencioso, ambiente aconchegante e atendimento de primeira.”</p><footer class="mono">Avaliação no Google</footer></blockquote>
+          <button class="pilha__proximo mono" type="button"><span data-pilha-n>1 / 4</span> · Próximo →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- #6 ONDE FICA: endereço, horário (hoje marcado) e o mapa -->
+    <section class="endereco secao secao--escura" id="endereco" aria-labelledby="endereco-titulo">
+      <div class="secao__miolo endereco__miolo">
+        <div class="endereco__texto">
+          <p class="rotulo mono">#6 · Onde fica</p>
+          <h2 class="titulo titulo--duas" id="endereco-titulo" data-titulo><span class="leve">No Centro</span> <span class="forte">de Apucarana.</span></h2>
+          <address class="endereco__lugar">R. Osório Ribas de Paula, 1717 · Centro<br>Apucarana-PR · 86802-710<br><a href="https://wa.me/5543999172749" class="endereco__fone" target="_blank" rel="noopener">WhatsApp (43) 99917-2749</a></address>
+          <dl class="horario mono">
+            <div data-dias="1"><dt>Segunda</dt><dd>13h – 20h</dd></div>
+            <div data-dias="2-5"><dt>Ter – sex</dt><dd>10h – 20h</dd></div>
+            <div data-dias="6"><dt>Sábado</dt><dd>9h30 – 17h30</dd></div>
+            <div data-dias="0"><dt>Domingo</dt><dd>Fechado</dd></div>
+          </dl>
+          <p class="adesivo mono">+450 assinantes no clube</p>
+        </div>
+        <figure class="mapa">
+          <div class="mapa__moldura">
+            <iframe class="mapa__iframe" title="Mapa: Barbearia Lobeca, R. Osório Ribas de Paula, 1717, Apucarana" src="https://www.google.com/maps?q=Barbearia+LOBECA+-+Apucarana%2FPR,+R.+Os%C3%B3rio+Ribas+de+Paula,+1717&z=16&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <figcaption class="mapa__pe"><span class="mono">Estacione na rua em frente</span><a class="botao botao--linha botao--pequeno" href="https://g.page/lobeca?share" target="_blank" rel="noopener">Como chegar</a></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- #7 TOUR VIRTUAL 360°: prévia da fachada no Street View; o tour por dentro entra aqui quando ficar pronto -->
+    <section class="tour secao secao--clara" id="tour" aria-labelledby="tour-titulo">
+      <div class="secao__miolo">
+        <p class="rotulo mono">#7 · Tour virtual 360°</p>
+        <h2 class="titulo" id="tour-titulo" data-titulo><span class="leve">Entre antes</span> <span class="forte">de chegar.</span></h2>
+        <p class="secao__texto">Arraste para olhar em volta. O tour completo por dentro da barbearia chega aqui em breve.</p>
+        <div class="tour__palco" data-tour>
+          <canvas class="tour__gl" aria-label="Vista 360° da fachada da Lobeca. Arraste para girar."></canvas>
+          <span class="tour__selo mono" aria-hidden="true">360°</span>
+          <p class="tour__dica mono" aria-hidden="true">← arraste para girar →</p>
+          <div class="tour__breve">
+            <p class="mono">Em breve · tour por dentro</p>
+            <a class="botao botao--claro botao--seta botao--pequeno" href="https://g.page/lobeca?share" target="_blank" rel="noopener">Abrir no Maps</a>
+          </div>
+        </div>
+        <p class="tour__credito mono">Prévia: Google Street View, R. Osório Ribas de Paula</p>
+      </div>
+    </section>
+
+    <!-- ANTES DE AGENDAR: o título sai do desfoque; perguntas em acordeão; o Instagram -->
+    <section class="duvidas secao secao--escura" id="duvidas" aria-labelledby="duvidas-titulo">
+      <div class="secao__miolo duvidas__miolo">
+        <h2 class="titulo duvidas__titulo" id="duvidas-titulo" data-titulo="desfoque"><span class="leve">Antes de</span> <span class="forte">agendar.</span></h2>
+        <div class="acordeao">
+          <details><summary>Como eu agendo?<svg viewBox="0 0 16 16"><use href="#mais"/></svg></summary><div class="acordeao__corpo"><p>Pelo botão Agendar aqui no site: você escolhe o serviço, o profissional e o horário e segue para o CashBarber ou manda tudo pronto no WhatsApp (43) 99917-2749.</p></div></details>
+          <details><summary>Como funcionam os planos?<svg viewBox="0 0 16 16"><use href="#mais"/></svg></summary><div class="acordeao__corpo"><p>Você paga um valor fixo por mês e usa os serviços do plano nos dias dele (seg a sáb nos VIP e Exclusive, seg a qua nos Week e Empresarial). A assinatura e as regras ficam no CashBarber da Lobeca.</p></div></details>
+          <details><summary>O que é a consultoria de visagismo?<svg viewBox="0 0 16 16"><use href="#mais"/></svg></summary><div class="acordeao__corpo"><p>É a primeira conversa na cadeira, para quem é cliente novo: o profissional visagista olha o formato do rosto e do cabelo e indica o corte que funciona para você. Custa R$ 75 e vem inclusa em vários planos.</p></div></details>
+          <details><summary>Qual o horário de funcionamento?<svg viewBox="0 0 16 16"><use href="#mais"/></svg></summary><div class="acordeao__corpo"><p>Segunda das 13h às 20h, de terça a sexta das 10h às 20h e sábado das 9h30 às 17h30. Domingo a casa fecha.</p></div></details>
+          <details><summary>Vocês fazem o Dia do Noivo?<svg viewBox="0 0 16 16"><use href="#mais"/></svg></summary><div class="acordeao__corpo"><p>Sim: o noivo e quatro padrinhos, por R$ 1.250. Chame no WhatsApp para reservar a data com antecedência.</p></div></details>
+        </div>
+      </div>
+      <div class="secao__miolo">
+        <aside class="vaga">
+          <svg class="vaga__icone" viewBox="0 0 24 48" aria-hidden="true"><use href="#tesoura"/></svg>
+          <p><span class="leve">No Instagram:</span> <strong>@lobecabarbershop</strong> <span class="leve">· cortes da semana, Dia do Noivo e os bastidores da casa.</span></p>
+          <a class="botao botao--linha botao--pequeno" href="https://www.instagram.com/lobecabarbershop/" target="_blank" rel="noopener">Seguir</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FECHO: o horário de hoje e o nome inteiro, aceso pelo foco -->
+    <section class="fecho secao--escura" id="fecho" data-fecho aria-labelledby="fecho-titulo">
+      <div class="secao__miolo fecho__linha">
+        <h2 class="fecho__titulo" id="fecho-titulo" data-titulo><span class="leve" data-fecho-leve>Aberto hoje</span> <span class="forte" data-fecho-hora>até as 20h.</span></h2>
+        <button class="botao botao--claro botao--seta" type="button" data-agendar>Agendar horário</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p class="rodape__nome" aria-hidden="true"><span>lobeca</span> <span>barber</span></p>
+    <div class="rodape__pe">
+      <nav class="rodape__links" aria-label="Rodapé">
+        <a href="#cardapio">Serviços</a><a href="#espelhos">Equipe</a><a href="#clube">Planos</a><a href="#tour">Tour 360°</a><a href="#endereco">Endereço</a><a href="https://www.instagram.com/lobecabarbershop/" target="_blank" rel="noopener">Instagram</a><a href="https://cashbarber.com.br/lobecabarbershop/inicio" target="_blank" rel="noopener">CashBarber</a><a href="https://wa.me/5543999172749" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+      <p class="rodape__nota mono">Lobeca Barbershop · R. Osório Ribas de Paula, 1717 · Centro · Apucarana-PR · Fotos de estilos ilustrativas · Cadeira 3D: “Barber Chair”, de sweedboy69 (CC BY 4.0)</p>
+    </div>
+  </footer>
+
+  <a class="zap-flutuante" href="https://wa.me/5543999172749?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20agendamento." target="_blank" rel="noopener" aria-label="Falar com a Lobeca no WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#zap"/></svg></a>
+
+  <!-- AGENDAMENTO: gaveta em quatro passos; o conteúdo é montado pelo src/agenda.js e termina no CashBarber ou no WhatsApp -->
+  <div class="agenda" hidden>
+    <div class="agenda__veu" data-fechar></div>
+    <aside class="agenda__gaveta" role="dialog" aria-modal="true" aria-labelledby="agenda-titulo">
+      <header class="agenda__topo">
+        <p class="agenda__passo mono" data-passo-rotulo>Passo 1 de 4</p>
+        <h2 class="agenda__titulo" id="agenda-titulo" data-passo-titulo>Escolha o serviço</h2>
+        <span class="agenda__barra" aria-hidden="true"><i></i></span>
+        <button class="agenda__fechar" type="button" data-fechar aria-label="Fechar o agendamento"><svg viewBox="0 0 16 16"><use href="#mais"/></svg></button>
+      </header>
+      <div class="agenda__corpo" data-corpo></div>
+      <footer class="agenda__rodape">
+        <p class="agenda__resumo mono" data-resumo>Nada escolhido ainda</p>
+        <button class="agenda__voltar" type="button" data-voltar>Voltar</button>
+        <button class="botao botao--claro botao--pequeno agenda__seguir" type="button" data-seguir disabled>Continuar</button>
+      </footer>
+    </aside>
+  </div>
+
+</body>
+</html>
